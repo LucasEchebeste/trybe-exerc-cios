@@ -55,7 +55,13 @@ Porcentagem >= 50 -> E
 
 Porcentagem < 50 -> F
 
-O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100. */
+O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+
+
+Utilize if/else para fazer um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele deve retornar false.
+Bonus: use somente um if.
+
+*/
 
 
 
@@ -142,7 +148,74 @@ console.log("False")
 
 }
 
-*/    
+*/
 
 
+/*
+
+const peça = 'bispo';
+
+switch (peça.toLowerCase()) {
+  case 'rei':
+    console.log('Rei-> Uma casa apenas para qualquer direção.');
+    break;
+  case 'bispo':
+    console.log('Bispo-> Diagonal.');
+    break;
+  case 'rainha':
+    console.log('Rainha-> Diagonal, horizontal e vertical.');
+    break;
+  case 'cavalo':
+    console.log('Cavalo -> "L" pode pular sobre as peças.');
+    break;
+  case 'torre':
+    console.log('Torre -> Horizontal e vertical.');
+    break;
+  case 'peão':
+    console.log("Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
+    break;
+  default:
+    console.log('Erro, peça inválida!');
+    break;
+};
+
+*/
+
+
+/*
+const nota = 76;
+
+if (nota < 0 || nota > 100) {
+  console.log("Erro, nota incorreta!");
+} else if (nota >= 90) {
+  console.log("A");
+} else if (nota >= 80) {
+  console.log("B");
+} else if (nota >= 70) {
+  console.log("C");
+} else if (nota >= 60) {
+  console.log("D");
+} else if (nota >= 50) {
+  console.log("E");
+} else {
+  console.log("F");
+}
+
+*/
+
+/*
+
+
+const a = 1;
+const b = 3;
+const c = 5;
+
+let isOdd = false;
+
+if ((a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0)) {
+  isOdd = true;
+};
+console.log(isOdd);
+
+*/
 
