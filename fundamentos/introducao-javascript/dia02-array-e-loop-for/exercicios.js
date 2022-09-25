@@ -61,3 +61,81 @@ if (media > 20) {
 
 */
 
+/*
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+let maiorNumero = numbers[0]
+
+for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] > maiorNumero) {
+        maiorNumero = numbers[i]
+    }
+
+}
+
+console.log(maiorNumero)
+
+*/
+
+/*
+
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+let numerosImpares = 0; 
+
+for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] % 2 !== 0) {
+        numerosImpares += 1
+    }
+
+}
+
+console.log(numerosImpares)
+
+if (numerosImpares === 0) {
+    console.log('Nenhum valor ímpar encontrado.');
+
+} else {
+
+    console.log('Foram encontrados', numerosImpares, 'números ímpares dentro do array.');
+}
+
+*/
+
+/*
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+let menorNumero = numbers[0]
+
+for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] < menorNumero) {
+        menorNumero = numbers[i]
+    }
+
+}
+
+console.log('O menor número do array é:', menorNumero)
+
+
+*/
+
+
+/*
+
+let twentyAdnFive = []
+
+for (let i = 0; i <= 25; i += 1) {
+    twentyAdnFive.push(i)
+}
+
+console.log(twentyAdnFive);
+
+for (let i = 0; i < twentyAdnFive.length; i += 1) {
+    console.log(twentyAdnFive[i] / 2);
+}
+
+
+*/
+
