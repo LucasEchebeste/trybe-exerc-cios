@@ -219,3 +219,42 @@ console.log(isOdd);
 
 */
 
+
+/*
+const a = 18
+const b = 20
+const c = 4
+
+if (a % 2 === 0 &&  b % 2 === 0 && c % 2 === 0) {
+  console.log("True")
+
+} else {
+
+  console.log("False");
+
+}
+
+*/ 
+
+/*
+const a = 10
+const b = 20
+const c = 18
+
+let fal = "true"
+
+if ((a % 2 === 0 && b % 2 === 0 && c % 2 === 0)) {
+  fal = "false"
+}
+
+console.log(fal)
+
+*/
+
+const custo = 15
+
+const valorDeVenda = 40
+
+const lucro = valorDeVenda - custo
+
+console.log('Vendendo mil unidades, a empresa terá um lucro de :', lucro * 1000 , 'reais.')
