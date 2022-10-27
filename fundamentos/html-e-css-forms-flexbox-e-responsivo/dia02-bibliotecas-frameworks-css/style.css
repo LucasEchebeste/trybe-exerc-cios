@@ -1,0 +1,60 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.formulario {
+    text-align: center;
+}
+
+
+.secao1 {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+.nome1 {
+    margin-bottom: 10px;
+}
+
+
+.secao2 {
+    margin-bottom: 70px;
+}
+
+#texto-concurso {
+    margin-top: 20px;
+}
+
+.secao3 {
+    margin-bottom: 70px;
+}
+
+#data {
+    margin-top: 15px;
+}
+
+.secao4 {
+    margin-bottom: 70px;
+}
+
+.secao5 {
+    margin-bottom: 15px;
+}
+
+.secao6 {
+    margin-bottom: 20px;
+}
+
+#botao {
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+#limpar {
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
