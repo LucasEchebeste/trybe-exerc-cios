@@ -1,0 +1,7 @@
+Crie um projeto npm do zero - Inicializei com npm init no terminal 
+Instale o vite e a biblioteca que iremos utilizar - usei npm install vite validator e na pasta package.json adicionei em scripts "dev": "vite --open"
+Estruture uma página HTML com um formulário
+O formulário deve possuir: campo para inserir o texto a ser validado, um dropdown para selecionar qual a validação deve ser feita, um botão para executar a validação e um texto que informe se o valor é válido ou não
+Faça, pelo menos, cinco validações utilizando a biblioteca validator. Aproveite e confira a documentação para ver exatamente como utilizá-la! - utilizei npm run dev
+Rode sua aplicação utilizando o vite - utilizei npm install eslint-config-trybe-frontend
+Teste se sua aplicação é aprovada pelo lint da Trybe
